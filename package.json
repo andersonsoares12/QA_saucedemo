@@ -1,7 +1,7 @@
 {
   "name": "qa_saucedemo",
   "version": "1.0.0",
-  "description": "Esse repositorio e somente para teste de QA para meu crescimento proffisional com cypress.",
+  "description": "Esse repositorio é somente para teste de QA para meu crescimento profissional com Cypress.",
   "main": "index.js",
   "scripts": {
     "cy:run:chrome": "npx cypress run --browser chrome",
@@ -10,8 +10,7 @@
   "keywords": [],
   "author": "Anderson Soares",
   "license": "ISC",
-
-  "dependencies": {
+  "engines": {
     "node": "^22.11.0"
   },
   "devDependencies": {
