@@ -57,21 +57,21 @@ Objetivo: Oferecer aos usuários uma experiência fluida e intuitiva para realiz
 
 # casos de testes 
 Cenário 1: Fazer login no sistema
-	1.	Acessar a página inicial do Sauce Demo.
-	2.	Inserir credenciais válidas no login.
-	3.	Verificar o redirecionamento para a página de produtos.
+	•	Acessar a página inicial do Sauce Demo.
+	•	Inserir credenciais válidas no login.
+	•	Verificar o redirecionamento para a página de produtos.
 
 Cenário 2: Adicionar produto ao carrinho
-	1.	Fazer login no sistema.
-	2.	Clicar no icone do carrinho para adicionar um produto.
-	3.	Validar que o carrinho foi atualizado corretamente.
+	•	Fazer login no sistema.
+	•	Clicar no icone do carrinho para adicionar um produto.
+	•	Validar que o carrinho foi atualizado corretamente.
 
 Cenário 3: Finalizar compra
-	1.	Adicionar um produto ao carrinho.
-	2.	Ir para o checkout.
-	3.	Preencher os dados necessários.
-	4.	Confirmar a compra.
-	5.	Verificar a mensagem de sucesso.
+	• 1	Adicionar um produto ao carrinho.
+	• 2	Ir para o checkout.
+	• 3	Preencher os dados necessários.
+	• 4	Confirmar a compra.
+	• 5	Verificar a mensagem de sucesso.
 
 * Estimativa do Tempo de Teste
 
