@@ -1,0 +1,12 @@
+{
+  "name": "qa_saucedemo",
+  "version": "1.0.0",
+  "description": "Esse repositorio e somente para teste de QA para meu crescimento proffisional com cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anderson Soares",
+  "license": "ISC"
+}
