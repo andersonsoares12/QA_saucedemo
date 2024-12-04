@@ -91,13 +91,21 @@ Cálculo:  Tempo_{Manual} = soma (tempo\ por \ cenário estimado) .
 Tempo_{Manual} = 3 + 4 + 8 = 15{minutos}
 
 * Estrutura do Projeto Cypress:
+  
 cypress/
+
   ├── e2e/
-  │     ├── login.cy.js
-  │     ├── carrinho.cy.js
-  │     ├── checkout.cy.js
+  
+       ├── login.cy.js
+  
+       ├── carrinho.cy.js
+  
+       ├── checkout.cy.js
+  
   ├── fixtures/
+  
   ├── support/
+  
   └── cypress.json
 
 # Conclusão
