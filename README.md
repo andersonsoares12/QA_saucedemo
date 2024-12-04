@@ -42,43 +42,43 @@ permissão concedida repositorio GITHUB para o email :
 # 1. História do Usuário
 
 Como um usuário do Sauce Demo, quero poder:
-	•	Fazer login no sistema com minhas credenciais.
-	•	Adicionar um produto ao carrinho.
-	•	Finalizar a compra com sucesso.
+	-	Fazer login no sistema com minhas credenciais.
+	-	Adicionar um produto ao carrinho.
+	-	Finalizar a compra com sucesso.
 
 Objetivo: Oferecer aos usuários uma experiência fluida e intuitiva para realizar compras.
 
 # 2. Critérios de Aceite
 
-• O sistema deve permitir login apenas com credenciais válidas.
-• O botão “shopping-cart-link” deve estar visível e funcional na página de produtos.
-• O carrinho deve atualizar corretamente após adicionar um produto.
-• A finalização da compra deve exibir uma mensagem "Thank you for your order!".
+- O sistema deve permitir login apenas com credenciais válidas.
+- O botão “shopping-cart-link” deve estar visível e funcional na página de produtos.
+- O carrinho deve atualizar corretamente após adicionar um produto.
+- A finalização da compra deve exibir uma mensagem "Thank you for your order!".
 
 # casos de testes 
 Cenário 1: Fazer login no sistema
-	•	Acessar a página inicial do Sauce Demo.
-	•	Inserir credenciais válidas no login.
-	•	Verificar o redirecionamento para a página de produtos.
+	-	Acessar a página inicial do Sauce Demo.
+	-	Inserir credenciais válidas no login.
+	-	Verificar o redirecionamento para a página de produtos.
 
 Cenário 2: Adicionar produto ao carrinho
-	•	Fazer login no sistema.
-	•	Clicar no icone do carrinho para adicionar um produto.
-	•	Validar que o carrinho foi atualizado corretamente.
+	-	Fazer login no sistema.
+	-	Clicar no icone do carrinho para adicionar um produto.
+	-	Validar que o carrinho foi atualizado corretamente.
 
 Cenário 3: Finalizar compra
-	• 1	Adicionar um produto ao carrinho.
-	• 2	Ir para o checkout.
-	• 3	Preencher os dados necessários.
-	• 4	Confirmar a compra.
-	• 5	Verificar a mensagem de sucesso.
+	- 1	Adicionar um produto ao carrinho.
+	- 2	Ir para o checkout.
+	- 3	Preencher os dados necessários.
+	- 4	Confirmar a compra.
+	- 5	Verificar a mensagem de sucesso.
 
 * Estimativa do Tempo de Teste
 
-	•	Cenário 1: 3 minutos (login e validação).
-	•	Cenário 2: 4 minutos (navegação, adicionar produto e validação).
-	•	Cenário 3: 8 minutos (preenchimento de formulário e validações).
-	•	Total para execução manual: 15 minutos.
+Cenário 1: 3 minutos (login e validação).
+	- Cenário 2: 4 minutos (navegação, adicionar produto e validação).
+	- Cenário 3: 8 minutos (preenchimento de formulário e validações).
+	- Total para execução manual: 15 minutos.
 
 Para automação, o tempo é reduzido para 2-3 minutos devido à execução rápida dos scripts.
 
