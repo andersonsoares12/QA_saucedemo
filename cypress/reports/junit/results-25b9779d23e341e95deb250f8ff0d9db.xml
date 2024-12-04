@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.800" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-12-04T22:06:55" tests="0" file="cypress/e2e/carrinho.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Fluxo de Carrinho no Sauce Demo" timestamp="2024-12-04T22:06:55" tests="2" time="7.797" failures="1">
+    <testcase name="Fluxo de Carrinho no Sauce Demo Deve adicionar produto ao carrinho" time="1.622" classname="Deve adicionar produto ao carrinho">
+    </testcase>
+    <testcase name="Fluxo de Carrinho no Sauce Demo Deve finalizar a compra com sucesso" time="0.000" classname="Deve finalizar a compra com sucesso">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h2.complete-header&gt;&apos; to contain &apos;THANK YOU FOR YOUR ORDER&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h2.complete-header>' to contain 'THANK YOU FOR YOUR ORDER'
+    at Context.eval (webpack://qa_saucedemo/./cypress/e2e/carrinho.cy.js:26:31)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

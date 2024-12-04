@@ -26,19 +26,34 @@ Para abrir o Cypress pela primeira vez e criar os arquivos de configuração pad
 npx cypress open
  
 
-* Comando para Gerar o Relatório no cypress: roda o script
+* Configuração para Gerar o Relatório no cypress: roda o script
 referencia para gerar o relatório: https://github.com/orgs/QA-Mind7
+* npm i -D cypress-mochawesome-reporter cypress-multi-reporters mocha-junit-reporter
 npm run cy:run:chrome
 
 * CI/CD do github - actions implementado cada vez que for realizado um push vai rodar na pipeline do gihub-actions
 referencia :
 https://github.com/cypress-io/github-action
 
-permissão concedida repositorio GITHUB para o email : lmartins@easyjur.com 
-OBS: na paste fixtures tem arquivos para serem utilizados no teste.
+permissão concedida repositorio GITHUB para o email :  
 
 4. integração com a pipeline do AzureDevops
 
+# 1. História do Usuário
+
+Como um usuário do Sauce Demo, quero poder:
+	•	Fazer login no sistema com minhas credenciais.
+	•	Adicionar um produto ao carrinho.
+	•	Finalizar a compra com sucesso.
+
+Objetivo: Oferecer aos usuários uma experiência fluida e intuitiva para realizar compras.
+
+# 2. Critérios de Aceite
+
+• O sistema deve permitir login apenas com credenciais válidas.
+• O botão “shopping-cart-link” deve estar visível e funcional na página de produtos.
+• O carrinho deve atualizar corretamente após adicionar um produto.
+• A finalização da compra deve exibir uma mensagem "Thank you for your order!".
 
 # casos de testes 
 Cenário 1: Fazer login no sistema
@@ -48,7 +63,7 @@ Cenário 1: Fazer login no sistema
 
 Cenário 2: Adicionar produto ao carrinho
 	1.	Fazer login no sistema.
-	2.	Clicar em “Add to cart” para um produto.
+	2.	Clicar no icone do carrinho para adicionar um produto.
 	3.	Validar que o carrinho foi atualizado corretamente.
 
 Cenário 3: Finalizar compra
@@ -71,12 +86,16 @@ Cálculo:  Tempo_{Manual} = soma (tempo\ por \ cenário estimado) .
 
 Tempo_{Manual} = 3 + 4 + 8 = 15{minutos}
 
-* 
+* Estrutura do Projeto Cypress:
 cypress/
-  ├── integration/
+  ├── e2e/
   │     ├── login.cy.js
-  │     ├── cart.cy.js
+  │     ├── carrinho.cy.js
   │     ├── checkout.cy.js
   ├── fixtures/
   ├── support/
   └── cypress.json
+
+# Conclusão
+
+* Os fluxos automatizados cobrem os principais cenários do Sauce Demo. A integração contínua com o pipeline garante execução automatizada a cada alteração no código, permitindo um ciclo de desenvolvimento e testes mais eficiente.
